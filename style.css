@@ -1,0 +1,50 @@
+html{box-sizing: border-box}
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+.title{
+    text-align: center;
+
+}
+.spaces{
+    display: flex;
+    margin-left: 5px;
+    font-size: 50px;
+    margin-top:0;
+    margin-bottom: 0;
+    letter-spacing: 5px;
+    justify-content: center;
+}
+.spaces p{
+    margin-left: 5px;
+    font-size: 50px;
+    margin-top:0;
+    margin-bottom: 0;
+}
+#buttons{
+    display: flex;
+    justify-content: center;
+}
+#restart{
+    display: none;
+    position: relative;
+    left:47%;
+}
+#guessed{
+    margin-top:40px;
+    font-size: 25px;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+.guessedletters{
+    color:red;
+    text-decoration: underline;
+}
+.para1{
+    margin-right:10px;
+}
+.para2{
+    margin-left:10px;
+}
+
