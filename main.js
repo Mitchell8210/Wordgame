@@ -8,7 +8,7 @@ var letters = alphabet.map(function(letter){
 })
 $("#buttons").html(letters)
 // FILTER THE ARRAY TO RETURN ONLY THE WORDS LONGER THAN 3 LETTERS
-const longWords = commonWords.filter((words)=>words.length> 3)
+const longWords = commonWords.filter((words)=>words.length> 2)
      console.log(longWords)
 
 /////////GAME FUNCTION TO BE RUN ON WINDOW REFRESH/////////
